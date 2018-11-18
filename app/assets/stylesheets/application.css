@@ -1,14 +1,15 @@
 h1 {
-    color:white;
+    color:#008080;
     font-family:Comic sans ms;
     }
 p {
-    color:white;
+    color: #40e0d0
+;
     font-family:Arial;
     font-weight:Bold;
     }
-body {background-color: #4da6ff ;}
-li {color:white;}
+body {background-color: #F5F5DC;}
+li {color:Black;}
 img {width:320px;}
 .span1 {
     color:red;
@@ -36,10 +37,9 @@ img {width:320px;}
     }
 #submit:active {
     box-shadow:1px 1px 1px 2px red;
-    background-color:orange;
     }
 .time {
-    background-color:White;
+    background-color:white;
     border-radius:12px;
     padding:3px;
     color:black;
