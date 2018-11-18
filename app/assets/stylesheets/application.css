@@ -3,26 +3,27 @@ h1 {
     font-family:Comic sans ms;
     }
 p {
-    color: #40e0d0
-;
+    color: #008080;
     font-family:Arial;
     font-weight:Bold;
     }
 body {background-color: #F5F5DC;}
 li {color:Black;}
-img {width:320px;}
+img {width:400px;}
+
+#day {color:#008080;}
 .span1 {
     color:red;
     font-weight:bold
     }
 .span2 {
-    color:Orange;
+    color:#8d2cf9;
     font-weight:bold;
     }
 #submit {
     font-size:20px;
     text-align:center;
-    color:Green;
+    color:#40e0d0;
     outline:none;
     border-style:none;
     padding:10px;
@@ -42,5 +43,7 @@ img {width:320px;}
     background-color:white;
     border-radius:12px;
     padding:3px;
-    color:black;
+    color:#8d2cf9;
     }
+    
+    
