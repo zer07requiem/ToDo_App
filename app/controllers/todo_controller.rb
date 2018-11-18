@@ -1,10 +1,10 @@
 
 class TodoController<ApplicationController
     def index
+     @todos = Todo.all
     end
     def show
         @todo=Todo.find_by_id(params[:id])
-        @todo_id = params[:id]
         if @todo_id =='1'
             @todo_description = "Get To School On Time School On Time"
             @todo_pomodoro_estimate = 1

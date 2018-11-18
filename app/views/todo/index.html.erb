@@ -10,33 +10,15 @@
 
 <p>To Do List</p>
 
-<ol>
+<ul>
+    <% @todos.each do |todo| %>
     <li>
-        <span class="time">Time</span>
-        <input type="checkbox">
-        Get to School on Time.
-        </li>
-    <li>
-        <span class="time">Time</span>
-        <input type="checkbox">
-        Passed In <span class="span1">Homeworks.</span></li>
-    <li>
-        <span class="time">Time</span>
-        <input type="checkbox">
-        Got Home before 5.
-        </li>
-    <li>
-       <span class="time">Time</span>
-        <input type="checkbox">
-        Daily Grind
-        </li>
-    <li>
-<span class="time">Time</span>
-        <input type="checkbox">
-        Finished <span class="span1">Homework</span>
+    <input type="checkbox" name=""/>
+    <a href="show/<%= todo.id %>"><%= todo.description %></a>
+    <span class="pomodoro-estimate small-pomodoro-estimate"><%= todo.pomodoro_estimate %></span>
     </li>
-   
-</ol>
+    <% end %>
+</ul>
    
 <a href="show.html"><span class="span2">show</span></a>
 
