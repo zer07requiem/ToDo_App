@@ -2,8 +2,8 @@
 
 <input type="checkbox"/>
 <hs>To Do List Homepage</hs>
-<a href="#">[Edit]</a>
-<a href="#">[Delete]</a>
+<a href="/todo/edit/<%= @todo.id %>" class="button edit-todo-button">Edit</a>
+<a href="/todo/destroy/<%= @todo.id %>" class="button delete-todo-button">Delete</a>
 <a href="index">[Go Back]</a>
 
 <h1><%= @todo_description %></h1>
